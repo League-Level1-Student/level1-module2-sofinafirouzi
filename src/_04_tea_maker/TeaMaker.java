@@ -1,13 +1,26 @@
 package _04_tea_maker;
+
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
 
 public class TeaMaker {
-
+	public static void main(String[] args) {
+		
+	
+	TeaMaker teamaker = new TeaMaker();
+	TeaBag bag = new TeaBag("Green");
+	Kettle kettle = new Kettle();
+	Cup teacup = new Cup();
+	kettle.getWater();
+	kettle.boil();
+	teacup.makeTea(bag, kettle.getWater());
+	
+			
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
-
+	}
 }
 
 class TeaBag {
