@@ -3,29 +3,11 @@ package _99_extra;
 public class worksheet {
 
 }
+
 /*Level 1 Checkpoint:
 Module 2
 1. Write a Constructor for a Cat object that sets its name and number of naps. (3) 
-
-
-public class Cat {
-
-       private String name;
-       private int napsPerDay;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+done
 
 
 }
@@ -33,11 +15,11 @@ public class Cat {
 
 2. Name three JComponents. (3)
 
-      ___________________________________________
+      _____________________________JFrame______________
 
-      ___________________________________________
+      _____________________________JButton______________
 
-      ___________________________________________
+      _________________________JPanel__________________
 
 3. Write a method that takes a person’s name as a parameter. If it’s your name, return “awesome”, otherwise return “lame”. (3) 
 
@@ -68,15 +50,15 @@ public class Cat {
 
       A Cat called Felix
 
-___________________________________________
+____________________int numberOfShoes;_______________________
 
-___________________________________________
+_______________________String favoriteIcecream;____________________
 
-___________________________________________
+____________boolean Dance;_______________________________
 
-___________________________________________
+___________Jbutton button = new JButton;________________________________
 
-___________________________________________
+___________Cat felix = new Cat("Felix");________________________________
 
 
 

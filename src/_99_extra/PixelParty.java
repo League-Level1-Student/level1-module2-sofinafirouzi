@@ -37,6 +37,16 @@ public class PixelParty {
 	
 	private boolean isRainbow = false;
 	
+	public static void main(String[] args) {
+		PixelParty pixel = new PixelParty();
+		pixel.setColor(1,1,1);
+		pixel.drawRectangle(50, 50, 25, 30);
+		pixel.drawCircle(100, 100, 10);
+		pixel.drawTriangle(70, 70, 80, 80, 100, 100);
+		pixel.saveImage();
+		pixel.displayImage();
+	}
+	
 	public PixelParty() {
 		img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 	}
